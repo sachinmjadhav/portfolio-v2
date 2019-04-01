@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Github",
+      "icon": "github",
+      "type": "social-media",
+      "url": "https://github.com/sachinmjadhav"
+    },
+    {
+      "name": "Twitter",
+      "icon": "twitter",
+      "type": "social-media",
+      "url": "https://twitter.com/sachinmjadhav"
+    },
+    {
+      "name": "Instagram",
+      "icon": "instagram",
+      "type": "social-media",
+      "url": "https://www.instagram.com/sachinmj"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin",
+      "type": "social-media",
+      "url": "https://www.linkedin.com/in/sachin-mj"
+    },
+    {
+    "name": "Facebook",
+    "icon": "facebook",
+    "type": "social-media",
+    "url": "https://www.facebook.com/sachinmj7"
+    },
+    {
+      "name": "Email",
+      "icon": "envelope",
+      "type": "email",
+      "url": "mailto:sachin0321@gmail.com"
+    }
+  ]

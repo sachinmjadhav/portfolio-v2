@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Social Network App",
+    "type": "react",
+    "description": "Social Network app built using MERN stack, with Heroku in the backend. Lets user create an account and update profie details for other to view.",
+    "img": "SocialNetwork.PNG",
+    "url": "https://socialnetworkapp.herokuapp.com",
+    "github": "https://github.com/sachinmjadhav/social-network"
+  },
+  {
+    "name": "Weather Forecast",
+    "type": "react",
+    "description": "A weather forecast app to get live weather of all around the world. Chart built using ChartJS",
+    "img": "WeatherForecast.PNG",
+    "url": "https://liveweather.netlify.com",
+    "github": "https://github.com/sachinmjadhav/react-weather"
+  },
+  {
+    "name": "Marvel Characters",
+    "type": "react",
+    "description": "World of Marvel Comics Characters, search for your favourite Marvel Character and find all the details about them.",
+    "img": "Marvel.PNG",
+    "url": "https://marvelheroes.netlify.com",
+    "github": "https://github.com/sachinmjadhav/marvel-react"
+  },
+  {
+    "name": "MERN Shopping List",
+    "type": "react",
+    "description": "Shopping list app built with the MERN stack along with Redux for state management, Reactstrap and react-transition-group.",
+    "img": "mern-shopping.PNG",
+    "url": "https://shoppinglist-mern.herokuapp.com",
+    "github": "https://github.com/sachinmjadhav/mern-shoppinglist"
+  },
+
+
+
+    
+  {
+    "name": "Reddit Search",
+    "type": "front-end",
+    "description": "Search for the whole of reddit! VanillaJS, Reddit-API",
+    "img": "reddit.PNG",
+    "url": "https://search-reddit.netlify.com/",
+    "github": "https://github.com/sachinmjadhav/reddit-search-js"
+  },
+  {
+    "name": "Budget App",
+    "type": "front-end",
+    "description": "App to keep track of your expenses. Enter your budget and all the expenses to get the remaining balance amount.",
+    "img": "Budget.PNG",
+    "url": "https://budgetcalc.netlify.com",
+    "github": "https://github.com/sachinmjadhav/budget-app-JS"
+  },
+  {
+    "name": "Movie Info",
+    "type": "front-end",
+    "description": "Search for your favourite movie and get all the details about the movie.",
+    "img": "Movie.PNG",
+    "url": "https://movie-info.netlify.com",
+    "github": "https://github.com/sachinmjadhav/movie-info"
+  },
+  {
+    "name": "Type-N-Speak",
+    "type": "front-end",
+    "description": "Type and speak app with speech synthesis using the Web Speech API.",
+    "img": "TypeNSpeak.PNG",
+    "url": "https://typenspeak.netlify.com",
+    "github": "https://github.com/sachinmjadhav/type-n-speak"
+  },
+  {
+    "name": "Weight Converter",
+    "type": "front-end",
+    "description": "Convert weight to different units between Kilogram, Pounds, Grams and Ounces.",
+    "img": "Weight.PNG",
+    "url": "https://weightconverter.netlify.com",
+    "github": "https://github.com/sachinmjadhav/weight-converter"
+  },
+  {
+    "name": "Countdown Timer",
+    "type": "front-end",
+    "description": "A basic Countdown Timer app built Vanilla JS, HTML and CSS",
+    "img": "countdown.PNG",
+    "url": "https://countdown-app.netlify.com",
+    "github": "https://github.com/sachinmjadhav/countdown-timer"
+  },
+  {
+    "name": "Drag and Drop",
+    "type": "front-end",
+    "description": "A simple app demonstrating drag and drap feature in VanillaJS",
+    "img": "dragndrop.PNG",
+    "url": "https://vanilladragndrop.netlify.com",
+    "github": "https://github.com/sachinmjadhav/countdown-timer"
+  },
+
+
+
+
+
+  {
+    "name": "Mock Data API",
+    "type": "back-end",
+    "description": "Backend API server providing mock data with different end-points",
+    "img": "mockdata.PNG",
+    "github": "https://github.com/sachinmjadhav/mockdata-api"
+  },
+  {
+    "name": "Login and Registration",
+    "type": "back-end",
+    "description": "Login and registration app using Node.js, Express, Passport, Mongoose, EJS and some other packages.",
+    "img": "Login.PNG",
+    "github": "https://github.com/sachinmjadhav/node-passport-auth"
+  }
+]
