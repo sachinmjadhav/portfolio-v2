@@ -29,8 +29,8 @@ function Cover({ coverImg }) {
         </h1>
         <p className="greetings">Front-End Developer</p>
       </div>
-      <div className="arrow animated bounceInDown">
-        <Scrollchor to="#about" className="btn" animate={{ duration: 500}}>
+      <div className="arrow bounceInDown">
+        <Scrollchor to="#about" className="btn" >
           <i className="fa fa-chevron-down"></i>
         </Scrollchor>
       </div>
