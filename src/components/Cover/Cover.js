@@ -37,5 +37,5 @@ function Cover({ coverImg }) {
     </div>
   )
 }
- 
+
 export default Cover;

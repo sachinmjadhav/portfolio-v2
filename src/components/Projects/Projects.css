@@ -48,6 +48,7 @@
   box-shadow: 0 12px 12px 0 #d3d3d3;
   box-sizing: border-box;
   background-color: white;
+  position: relative;
 }
 
 .card-img {
@@ -105,6 +106,17 @@
 
 .hide {
   display: none;
+}
+.github {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.github i {
+  color: rgb(51, 122, 183);
+}
+.github:hover i {
+  color: rgb(132, 191, 243);
 }
 
 /******** BOOTSRAP FORM CONTROL  *******/

@@ -36,21 +36,26 @@ function Projects({ projectImgs }) {
             const image = projectImgs.find(n => n.node.relativePath === `projects/${project.img}`)
             const imageSizes = image.node.childImageSharp.sizes;
             return (
-              <a href={project.url} key={project.url} className={singleCardClass} target="_blank" rel="noopener noreferrer">
-                <div className="card-img">
-                  <Img 
-                    title={project.name}
-                    alt={`Screenshot of Project - ${project.name}`}
-                    sizes={imageSizes}
-                    className="card-img_src center-block"
-                  />
-                </div>
-                <div className="blue-divider" />
-                <div className="card-info">
-                  <h4 className="card-name">{project.name}</h4>
-                  <p>{project.description}</p>
-                </div>
-              </a>
+              <div className={singleCardClass} key={project.url}>
+                <a href={project.url} target="_blank" rel="noopener noreferrer">
+                  <div className="card-img">
+                    <Img 
+                      title={project.name}
+                      alt={`Screenshot of Project - ${project.name}`}
+                      sizes={imageSizes}
+                      className="card-img_src center-block"
+                    />
+                  </div>
+                  <div className="blue-divider" />
+                  <div className="card-info">
+                    <h4 className="card-name">{project.name}</h4>
+                    <p>{project.description}</p>
+                  </div>
+                </a>
+                <a href={project.github} className="github" target="_blank" rel="noopener noreferrer">
+                  <i class="fa fa-github fa-2x"></i>
+                </a>
+              </div>
             )
           })}
         </div>
