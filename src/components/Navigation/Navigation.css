@@ -81,3 +81,13 @@ button:focus {
     padding: 10px 15px !important;
   }
 }
+
+@media (max-width: 350px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .logo {
+    width: 1.8rem;
+    height: 2.2rem;
+  }
+}

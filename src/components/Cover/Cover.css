@@ -163,3 +163,9 @@
     padding-right: 30px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .arrow {
+    bottom: 3rem;
+  }
+}
