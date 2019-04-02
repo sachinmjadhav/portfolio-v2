@@ -12,6 +12,11 @@ function Projects({ projectImgs }) {
     setSelectedType(e)
   }
 
+  const reactProjs = projectList.filter(project => project.type === "react");
+  const frontProjs = projectList.filter(project => project.type === "front-end");
+  const backProjs = projectList.filter(project => project.type === "back-end");
+  let projects;
+  selectedType === 'react' ? projects = reactProjs : selectedType === 'front-end' ? projects = frontProjs : projects = backProjs;
   return(
     <section id="projects" className="section projects">
       <h2 className="text-center">PROJECTS</h2>
@@ -30,13 +35,13 @@ function Projects({ projectImgs }) {
           </Nav>
         </div>
         <div className="project-list">
-          {projectList.map(project => {
+          {projects.map(project => {
             const isSelectedType = selectedType === project.type;
-            const singleCardClass = classNames("single-card ", { hide: !isSelectedType });
+            const singleCardClass = classNames("single-card ", { swingOut: !isSelectedType, swingIn: isSelectedType });
             const image = projectImgs.find(n => n.node.relativePath === `projects/${project.img}`)
             const imageSizes = image.node.childImageSharp.sizes;
             return (
-              <div className={singleCardClass} key={project.url}>
+              <div key={project.url} className={singleCardClass}>
                 <a href={project.url} target="_blank" rel="noopener noreferrer">
                   <div className="card-img">
                     <Img 
@@ -53,7 +58,7 @@ function Projects({ projectImgs }) {
                   </div>
                 </a>
                 <a href={project.github} className="github" target="_blank" rel="noopener noreferrer">
-                  <i class="fa fa-github fa-2x"></i>
+                  <i className="fa fa-github fa-2x"></i>
                 </a>
               </div>
             )
