@@ -50,7 +50,7 @@ function About({ profileImg }) {
             <div className="box">
               <h5>Tollbox</h5>
               <p>
-                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, ReactJS, Redux, GatsbyJS, Bootstrap, NodeJS, ExpressJS, MongoDB <br/>
+                <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3, ReactJS, Redux, Bootstrap, NodeJS, ExpressJS, MongoDB <br/>
                 <b>IDE:</b> Microsoft VS Code <br/>
                 <b>VCS:</b> Git/GitHub <br/>
                 <b>Debugger:</b> Chrome DevTools <br/>
@@ -60,9 +60,9 @@ function About({ profileImg }) {
           <div className="col-lg-6 col-md-6 col-12 mx-auto">
             <div className="box">
               <h5>Learning</h5>
-              <p><b>Currently:</b> Jest, Python
+              <p><b>Currently:</b> GatsbyJS, GraphQL
               <br/>
-              <b>On the Radar:</b> GraphQL <br/>
+              <b>On the Radar:</b> JEST, Python <br/>
               <b>Others: </b>TDD, a11y, i18n<br/>
               </p>
             </div>

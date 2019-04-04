@@ -2,7 +2,7 @@
   {
     "name": "Social Network App",
     "type": "react",
-    "description": "Social Network app built using MERN stack, with Heroku in the backend. Lets user create an account and update profie details for other to view.",
+    "description": "Social Network app built using MERN stack, with Heroku in the backend. Lets the user create an account and update profie details for others to view.",
     "img": "SocialNetwork.PNG",
     "url": "https://socialnetworkapp.herokuapp.com",
     "github": "https://github.com/sachinmjadhav/social-network"
@@ -10,7 +10,7 @@
   {
     "name": "Weather Forecast",
     "type": "react",
-    "description": "A weather forecast app to get live weather of all around the world. Chart built using ChartJS",
+    "description": "A weather forecast app to get live weather details of all around the world. Charts built with ChartJS",
     "img": "WeatherForecast.PNG",
     "url": "https://liveweather.netlify.com",
     "github": "https://github.com/sachinmjadhav/react-weather"
@@ -38,7 +38,7 @@
   {
     "name": "Reddit Search",
     "type": "front-end",
-    "description": "Search for the whole of reddit! VanillaJS, Reddit-API",
+    "description": "Search for the whole of reddit! - VanillaJS, Reddit-API",
     "img": "reddit.PNG",
     "url": "https://search-reddit.netlify.com/",
     "github": "https://github.com/sachinmjadhav/reddit-search-js"
@@ -70,7 +70,7 @@
   {
     "name": "Weight Converter",
     "type": "front-end",
-    "description": "Convert weight to different units between Kilogram, Pounds, Grams and Ounces.",
+    "description": "Convert weight to different units between Kilograms, Pounds, Grams and Ounces.",
     "img": "Weight.PNG",
     "url": "https://weightconverter.netlify.com",
     "github": "https://github.com/sachinmjadhav/weight-converter"
@@ -78,7 +78,7 @@
   {
     "name": "Countdown Timer",
     "type": "front-end",
-    "description": "A basic Countdown Timer app built Vanilla JS, HTML and CSS",
+    "description": "A basic Countdown Timer app built with JS, HTML and CSS",
     "img": "countdown.PNG",
     "url": "https://countdown-app.netlify.com",
     "github": "https://github.com/sachinmjadhav/countdown-timer"
@@ -99,7 +99,7 @@
   {
     "name": "Mock Data API",
     "type": "back-end",
-    "description": "Backend API server providing mock data with different end-points",
+    "description": "Backend Express API server providing mock data with different end-points",
     "img": "mockdata.PNG",
     "github": "https://github.com/sachinmjadhav/mockdata-api"
   },
