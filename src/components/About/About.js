@@ -20,7 +20,7 @@ function About({ profileImg }) {
           <div className="col-12 col-sm-12 col-md-6 ">
             <h4>What I hope to do</h4>
             <p>
-            My mission as a developer is to contribute to applications that
+              My mission as a developer is to contribute to applications that
               empower and improve lives. I believe that through code we can
               make the world a better place by building products that empower
               communities. Yes, let&apos;s change the world together!
@@ -38,7 +38,7 @@ function About({ profileImg }) {
               </a>{" "}
               curriculum, an open source coding community. On top of
               FreeCodeCamp, I listen to engineering
-              podcasts, read tech blogs, watch conference talks online and take other online courses in order
+              podcasts, read tech blogs, watch conference talks and take other online courses in order
               to help me develop a growth mindset and become a better developer.
               Throughout this journey, I have learned to accept failure and use
               it as an opportunity to learn and grow.
