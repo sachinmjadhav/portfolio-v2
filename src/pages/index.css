@@ -57,7 +57,7 @@ h5 {
   /* to keep footer at bottom of page*/
   position: relative;
   min-height: 100%;
-  padding-bottom: 220px; /* Height of the footer element */
+  padding-bottom: 120px; /* Height of the footer element */
 }
 
 .row {

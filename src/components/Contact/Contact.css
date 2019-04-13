@@ -9,3 +9,10 @@
 .btn-social-icon {
   font-size: 40px;
 }
+
+.contact_icon:hover {
+  background-color: #337ab7;
+  color: white;
+  padding: 7px;
+  border-radius: 10px;
+}

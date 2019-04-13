@@ -1,12 +1,19 @@
-import React from 'react';
-import './Footer.css';
+import React from "react";
+import "./Footer.css";
 
 function Footer() {
   return (
     <footer>
-      Coded by Sachin Jadhav
+      Developed by{" "}
+      <a
+        href="https://twitter.com/sachinmjadhav"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Sachin Jadhav
+      </a>
     </footer>
-  )
+  );
 }
 
 export default Footer;
