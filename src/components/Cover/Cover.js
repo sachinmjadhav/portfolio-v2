@@ -4,7 +4,6 @@ import Img from "gatsby-image";
 import "./Cover.css";
 
 function Cover({ coverImg }) {
-  console.log("coverImg", coverImg);
   return (
     <div id="#top" className="cover animated">
       <Img

@@ -3,7 +3,6 @@ import "./About.css";
 import Img from "gatsby-image";
 
 function About({ profileImg }) {
-  console.log("profileImg", profileImg);
   return (
     <section id="about" className="section container">
       <h2 className="text-center">ABOUT ME</h2>

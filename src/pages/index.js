@@ -1,19 +1,18 @@
-import React from "react"
-import { Helmet } from 'react-helmet';
-import { graphql } from 'gatsby';
-import Navigation from '../components/Navigation/Navigation';
-import Cover from '../components/Cover/Cover';
-import About from '../components/About/About';
-import Projects from '../components/Projects/Projects';
-import Contact from '../components/Contact/Contact';
-import Footer from '../components/Footer/Footer'
-import favicon from '../static/logo.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
+import { Helmet } from "react-helmet";
+import { graphql } from "gatsby";
+import Navigation from "../components/Navigation/Navigation";
+import Cover from "../components/Cover/Cover";
+import About from "../components/About/About";
+import Projects from "../components/Projects/Projects";
+import Contact from "../components/Contact/Contact";
+import Footer from "../components/Footer/Footer";
+import favicon from "../static/logo.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "font-awesome/css/font-awesome.min.css";
-import './index.css'
+import "./index.css";
 
 function HomePage({ data }) {
-  console.log('data', data)
   const { edges: projectImgs } = data.projectImgs;
   const siteTitle = data.site.siteMetadata.title;
   const metaDescr = data.site.siteMetadata.description;
@@ -26,14 +25,14 @@ function HomePage({ data }) {
       </Helmet>
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
-        <Navigation logoImg={data.logoImg}/>
+        <Navigation logoImg={data.logoImg} />
         <About profileImg={data.profileImg} />
-        <Projects projectImgs={projectImgs}/>
+        <Projects projectImgs={projectImgs} />
         <Contact />
         <Footer />
       </div>
     </div>
-  )
+  );
 }
 
 export default HomePage;
@@ -46,7 +45,7 @@ export const query = graphql`
         description
       }
     }
-    coverImg: imageSharp(original: { src : { regex: "/background/" } }) {
+    coverImg: imageSharp(original: { src: { regex: "/background/" } }) {
       fluid(maxWidth: 1200, toFormat: PNG) {
         ...GatsbyImageSharpFluid
       }
@@ -78,4 +77,4 @@ export const query = graphql`
       }
     }
   }
-`
+`;
