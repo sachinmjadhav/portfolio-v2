@@ -47,7 +47,7 @@ function About({ profileImg }) {
         <div className="row">
           <div className=" col-12 col-md-6 col-lg-6 mx-auto">
             <div className="box">
-              <h5>Tollbox</h5>
+              <h5>Toolbox</h5>
               <p>
                 <b>Languages and Frameworks:</b> Javascript, HTML5, CSS3,
                 ReactJS, Redux, Bootstrap, NodeJS, ExpressJS, MongoDB <br />
