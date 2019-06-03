@@ -47,7 +47,7 @@ function Navigation({ logoImg }) {
     <Navbar className={whiteBackground} fixed={"top"} expand="md">
       <div className="container">
         <NavbarBrand
-          href="https://www.sachinjadhav.ooo"
+          href="https://www.sachinjadhav.in"
           className={fontColor}
           style={{ display: "flex", alignItems: "center" }}
         >
