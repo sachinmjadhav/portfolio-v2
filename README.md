@@ -1,4 +1,3 @@
 # Portfolio Website built with GatsbyJS
-``` 
-Built with GatsbyJS, Bootstrap, and some other packages.
-```
+ 
+Built with GatsbyJS, Bootstrap, and few other packages.
