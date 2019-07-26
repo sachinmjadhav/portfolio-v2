@@ -13,6 +13,20 @@ import "font-awesome/css/font-awesome.min.css";
 import "./index.css";
 
 function HomePage({ data }) {
+  const structuredData = `{
+    "@context" : "http://schema.org",
+    "@type" : "Person",
+    "name" : "Sachin Jadhav",
+    "image" : "https://sachinjadhav.in${data.logoUrl.edges[0].node.publicURL}",
+    "telephone" : "+91-9739634917",
+    "email" : "sachin0321@gmail.com",
+    "address" : {
+      "@type" : "PostalAddress",
+      "addressLocality" : "Bangalore,",
+      "addressRegion" : "Karnataka",
+      "postalCode" : "560060"
+    }
+  }`
   const { edges: projectImgs } = data.projectImgs;
   const { title, description } = data.site.siteMetadata;
   return (
@@ -63,6 +77,7 @@ function HomePage({ data }) {
         ]}
       >
         <link rel="icon" type="/image/png" href={favicon} />
+        <script type="application/ld+json">{structuredData}</script>
       </Helmet>
       <Cover coverImg={data.coverImg} />
       <div className="container-fluid main">
