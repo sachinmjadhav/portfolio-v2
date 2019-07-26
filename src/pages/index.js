@@ -14,13 +14,54 @@ import "./index.css";
 
 function HomePage({ data }) {
   const { edges: projectImgs } = data.projectImgs;
-  const siteTitle = data.site.siteMetadata.title;
-  const metaDescr = data.site.siteMetadata.description;
+  const { title, description } = data.site.siteMetadata;
   return (
     <div>
-      <Helmet>
-        <title>{siteTitle}</title>
-        <meta name="description" content={metaDescr} />
+      <Helmet
+        title={title}
+        meta={[
+          {
+            name: `description`,
+            content: description,
+          },
+          {
+            property: `og:title`,
+            content: 'Sachin Jadhav',
+          },
+          {
+            property: `og:description`,
+            content: 'JavaScript Developer',
+          },
+          {
+            property: `og:type`,
+            content: `website`,
+          },
+          {
+            property: `og:image`,
+            content: data.logoImg
+          },
+          {
+            property: `og:url`,
+            content: `https://www.sachinjadhav.in`
+          },
+          {
+            name: `twitter:card`,
+            content: `summary`,
+          },
+          {
+            name: `twitter:creator`,
+            content: 'Sachin Jadhav',
+          },
+          {
+            name: `twitter:title`,
+            content: title,
+          },
+          {
+            name: `twitter:description`,
+            content: description,
+          }
+        ]}
+      >
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
       <Cover coverImg={data.coverImg} />
