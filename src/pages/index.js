@@ -73,6 +73,10 @@ function HomePage({ data }) {
           {
             name: `twitter:description`,
             content: description,
+          },
+          {
+            name: `keywords`,
+            content: "sachin jadhav, front end developer, javascript, reactjs, redux, bangalore"
           }
         ]}
       >
