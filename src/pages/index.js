@@ -38,7 +38,7 @@ function HomePage({ data }) {
           },
           {
             property: `og:image`,
-            content: data.logoImg
+            content: data.logoUrl.edges[0].node.publicURL
           },
           {
             property: `og:url`,
@@ -99,6 +99,13 @@ export const query = graphql`
     logoImg: imageSharp(original: { src: { regex: "/logo/" } }) {
       fluid(maxWidth: 124, maxHeight: 162) {
         ...GatsbyImageSharpFluid
+      }
+    }
+    logoUrl: allFile(filter: { relativePath: { regex: "/logo/" } }) {
+      edges {
+        node {
+          publicURL
+        }
       }
     }
     projectImgs: allFile(
