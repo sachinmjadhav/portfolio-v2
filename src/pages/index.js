@@ -38,7 +38,7 @@ function HomePage({ data }) {
           },
           {
             property: `og:image`,
-            content: data.logoUrl.edges[0].node.publicURL
+            content: `https://sachinjadhav.in${data.logoUrl.edges[0].node.publicURL}`
           },
           {
             property: `og:url`,
@@ -101,7 +101,7 @@ export const query = graphql`
         ...GatsbyImageSharpFluid
       }
     }
-    logoUrl: allFile(filter: { relativePath: { regex: "/logo/" } }) {
+    logoUrl: allFile(filter: { relativePath: { regex: "/profile/" } }) {
       edges {
         node {
           publicURL
