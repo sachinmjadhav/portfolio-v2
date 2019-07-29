@@ -120,7 +120,7 @@ export const query = graphql`
         ...GatsbyImageSharpFluid
       }
     }
-    logoUrl: allFile(filter: { relativePath: { regex: "/profile/" } }) {
+    logoUrl: allFile(filter: { relativePath: { regex: "/logo/" } }) {
       edges {
         node {
           publicURL
