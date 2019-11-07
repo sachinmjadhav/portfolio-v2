@@ -9,7 +9,7 @@ function Cover({ coverImg }) {
       <Img
         fluid={coverImg.fluid}
         title="Cover Image"
-        alt="Air Balloon in nature"
+        alt="Laptop Screen with Code"
         style={{
           position: "absolute",
           left: 0,
