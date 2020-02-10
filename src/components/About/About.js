@@ -27,7 +27,7 @@ function About({ profileImg }) {
             <h4>What I'm doing</h4>
             <p>
               {" "}
-              On my free time, I am building web applications through the{" "}
+              In my free time, I am building web applications through the{" "}
               <a
                 href="https://www.freecodecamp.com/"
                 target="_blank"
