@@ -24,7 +24,7 @@ function HomePage({ data }) {
       "@type" : "PostalAddress",
       "addressLocality" : "Bangalore,",
       "addressRegion" : "Karnataka",
-      "postalCode" : "560060"
+      "postalCode" : "560098"
     }
   }`
   const { edges: projectImgs } = data.projectImgs;
@@ -44,7 +44,7 @@ function HomePage({ data }) {
           },
           {
             property: `og:description`,
-            content: 'JavaScript Developer',
+            content: 'Web and Mobile Applications Developer',
           },
           {
             property: `og:type`,
@@ -76,7 +76,7 @@ function HomePage({ data }) {
           },
           {
             name: `keywords`,
-            content: "sachin jadhav, front end developer, javascript, reactjs, redux, bangalore"
+            content: "sachin jadhav, front end developer, javascript, web developer, mobile app developer, reactjs, react native, redux, bangalore"
           }
         ]}
       >
